@@ -1,0 +1,53 @@
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  background-color: rgba(0, 0, 0, 0.808);
+  border: 7px solid darkgrey;
+}
+
+li a {
+  display: block;
+  color: darkgreen;
+  padding: 16px 25px;
+  text-decoration: none;
+  text-align: center;
+  border-bottom: 5px solid darkgrey;
+  font-size: x-large;
+}
+li a.active {
+  background-color: darkgreen;
+  color: darkgrey;
+}
+li a:hover {
+  background-color: darkgreen;
+  color: darkgrey;
+}
+h1 {
+  text-align: center;
+  font-family: monospace;
+  color: white;
+  font-weight: bold;
+  font-size: 50px;
+}
+p {
+  font-size: 25px;
+  text-align: center;
+  font-family: monospace;
+  color: white;
+  font-family: "Times New Roman";
+}
+.navmenu {
+  float: left;
+}
+ins {
+  color: white;
+}
+
+a {
+  color: darkgrey;
+}
+body {
+  background-color: rgba(0, 0, 0, 0.849);
+}
