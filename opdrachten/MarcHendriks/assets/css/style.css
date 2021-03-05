@@ -4,7 +4,7 @@ ul {
   padding: 0;
   width: 200px;
   background-color: rgba(0, 0, 0, 0.808);
-  border: 7px solid darkgrey;
+  border: 7px solid black;
 }
 
 li a {
@@ -13,10 +13,10 @@ li a {
   padding: 16px 25px;
   text-decoration: none;
   text-align: center;
-  border-bottom: 5px solid darkgrey;
+  border-bottom: 5px solid black;
   font-size: x-large;
 }
-li a.active {
+.active {
   background-color: darkgreen;
   color: darkgrey;
 }
@@ -45,9 +45,32 @@ ins {
   color: white;
 }
 
-a {
-  color: darkgrey;
+p a {
+  color: rgba(0, 128, 0, 0.623);
 }
 body {
   background-color: rgba(0, 0, 0, 0.849);
+}
+
+.button {
+  float: left;
+  border: 2px solid darkgrey;
+  background-color: black;
+  border-radius: 8px;
+  color: darkgreen;
+  padding: 10px 27px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 20px;
+  width: 260px;
+}
+
+.button:hover {
+  background-color: darkgreen;
+  color: darkgrey;
+}
+
+#active {
+  background-color: darkgreen;
+  color: darkgrey;
 }

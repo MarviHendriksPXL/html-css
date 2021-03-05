@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Link met js</title>
+    <link rel="stylesheet" href="./style.css" />
+    <script defer src="js.js"></script>
+  </head>
+  <body>
+    <h1>Javascript linken</h1>
+    <h2>Calculator</h2>
+    <input id="n1" type="number" />
+    <select name="operators" id="operators">
+      <option value="+">+</option>
+      <option value="-">-</option>
+      <option value="x">x</option>
+      <option value="/">/</option>
+      <option value="macht">macht</option>
+      <option value="wortel">wortel</option>
+    </select>
+    <input id="n2" type="number" />
+    <br />
+    <button onclick="uitkomst()">=</button>
+    <div id="totaal"></div>
+  </body>
+</html>
