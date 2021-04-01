@@ -33,3 +33,26 @@ function uitkomst() {
       totaal.textContent = Math.sqrt(n1, n2);
   }
 }
+
+function bmi() {
+  const gewicht = document.querySelector("#gewicht").value;
+  const lengte1 = document.getElementById("lengte1").value;
+  const totaalBmi = document.querySelector("#totaalbmi");
+
+  const uitslag = gewicht / (lengte1 * lengte1);
+
+  switch (true) {
+    case uitslag < 18.5:
+      totaalBmi.innerText = `uw bmi = ${uitslag}: u heeft ondergewicht`;
+      break;
+    case uitslag > 18.5 && uitslag < 25:
+      totaalBmi.innerText = `uw bmi = ${uitslag}: u heeft een gezond gewicht`;
+      break;
+    case uitslag > 25 && uitslag < 30:
+      totaalBmi.innerText = `uw bmi = ${uitslag}: u heeft overgewicht`;
+      break;
+    case uitslag > 30:
+      totaalBmi.innerText = `uw bmi = ${uitslag}: u heeft obesitas`;
+      break;
+  }
+}
