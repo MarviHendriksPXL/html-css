@@ -1,24 +1,48 @@
 body {
+  background-image: url("math.jpg");
 }
 
 h1 {
-  color: rgb(17, 0, 255);
+  color: white;
+  text-align: center;
+  font-size: 60px;
 }
 
 h2 {
-  color: blueviolet;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  font-size: 45px;
 }
 
 h3 {
-  color: deeppink;
+  color: white;
+  text-align: center;
+  font-size: 40px;
 }
 
 h4 {
   color: white;
+  text-align: center;
 }
 
 #totaal,
 #totaalbmi {
-  color: blue;
+  color: rgba(0, 0, 0);
   font-size: 40px;
 }
+
+div {
+  text-align: center;
+}
+
+p {
+  color: white;
+}
+
+label {
+  color: white;
+  font-size: 20px;
+  text-decoration: underline;
+  text-decoration-color: black;
+}
+

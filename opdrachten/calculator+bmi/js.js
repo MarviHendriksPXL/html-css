@@ -39,7 +39,7 @@ function bmi() {
   const lengte1 = document.getElementById("lengte1").value;
   const totaalBmi = document.querySelector("#totaalbmi");
 
-  const uitslag = gewicht / (lengte1 * lengte1);
+  const uitslag = roundToTwo(gewicht / (lengte1 * lengte1));
 
   switch (true) {
     case uitslag < 18.5:
@@ -55,4 +55,8 @@ function bmi() {
       totaalBmi.innerText = `uw bmi = ${uitslag}: u heeft obesitas`;
       break;
   }
+}
+
+function roundToTwo(num) {
+  return +(Math.round(num + "e+2") + "e-2");
 }

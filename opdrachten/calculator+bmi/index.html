@@ -11,29 +11,33 @@
   <body>
     <h1>Javascript linken</h1>
     <h2>Calculator</h2>
-    <input id="n1" type="number" />
-    <select name="operators" id="operators">
-      <option value="+">+</option>
-      <option value="-">-</option>
-      <option value="x">x</option>
-      <option value="/">/</option>
-      <option value="macht">macht</option>
-      <option value="wortel">wortel</option>
-    </select>
-    <input id="n2" type="number" />
-    <br />
-    <button onclick="uitkomst()">=</button>
+    <div>
+      <input id="n1" type="number" />
+      <select name="operators" id="operators">
+        <option value="+">+</option>
+        <option value="-">-</option>
+        <option value="x">x</option>
+        <option value="/">/</option>
+        <option value="macht">macht</option>
+        <option value="wortel">wortel</option>
+      </select>
+      <input id="n2" type="number" />
+      <br />
+      <button onclick="uitkomst()">=</button>
+    </div>
     <div id="totaal"></div>
 
     <h2>BMI Calculator</h2>
     <h3>geef hier onder uw gewicht en lengte in!</h3>
-    <label for="gewicht">Gewicht:</label>
-    <input id="gewicht" type="number" />
-    <br />
-    <label for="lengte1">Lengte: </label>
-    <input id="lengte1" type="number" />
-    <br />
-    <button onclick="bmi()">=</button>
+    <div>
+      <label for="gewicht">Gewicht:</label>
+      <input id="gewicht" type="number" />
+      <br />
+      <label for="lengte1">Lengte: </label>
+      <input id="lengte1" type="number" />
+      <br />
+      <button onclick="bmi()">=</button>
+    </div>
     <div id="totaalbmi"></div>
 
     <h4>Wat is Bmi?</h4>
